@@ -1,7 +1,7 @@
-package starter.controller;
+package com.weylandyutani.starter.controller;
 
-import starter.dto.CommandRequest;
-import starter.service.CommandExecutorService;
+import com.weylandyutani.starter.dto.CommandRequest;
+import com.weylandyutani.starter.service.CommandExecutorService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

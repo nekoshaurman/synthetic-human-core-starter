@@ -1,6 +1,6 @@
-package starter.aspects;
+package com.weylandyutani.starter.aspects;
 
-import starter.service.AuditService;
+import com.weylandyutani.starter.service.AuditService;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -16,7 +16,7 @@ public class AuditAspect {
         this.auditService = auditService;
     }
 
-    @Around("@annotation(starter.annotations.WeylandWatchingYou)")
+    @Around("@annotation(com.weylandyutani.starter.annotations.WeylandWatchingYou)")
     public Object audit(ProceedingJoinPoint joinPoint) throws Throwable {
         Object result = null;
         try {

@@ -1,13 +1,13 @@
-package starter.service;
+package com.weylandyutani.starter.service;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.Gauge;
 
-import starter.annotations.WeylandWatchingYou;
-import starter.dto.CommandRequest;
-import starter.exceptions.QueueOverflowException;
-import starter.model.CommandPriority;
+import com.weylandyutani.starter.annotations.WeylandWatchingYou;
+import com.weylandyutani.starter.dto.CommandRequest;
+import com.weylandyutani.starter.exceptions.QueueOverflowException;
+import com.weylandyutani.starter.model.CommandPriority;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;

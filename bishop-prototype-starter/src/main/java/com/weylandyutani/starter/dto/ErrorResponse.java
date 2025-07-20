@@ -1,4 +1,4 @@
-package starter.dto;
+package com.weylandyutani.starter.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

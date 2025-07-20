@@ -1,6 +1,6 @@
-package starter.dto;
+package com.weylandyutani.starter.dto;
 
-import starter.model.CommandPriority;
+import com.weylandyutani.starter.model.CommandPriority;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

@@ -1,4 +1,4 @@
-package starter.model;
+package com.weylandyutani.starter.model;
 
 public enum CommandPriority {
     COMMON,
