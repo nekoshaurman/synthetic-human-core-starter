@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/commands")
+@RequestMapping("/starter/commands")
 public class CommandController {
 
     @Autowired
